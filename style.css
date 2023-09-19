@@ -1,0 +1,139 @@
+*{
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: rgba(138, 81, 252, 1);
+}
+
+.logo-dinheiro{
+    width: 300px;
+    margin-left:calc(50% - 150px);
+}
+
+.quadrado-maior{
+    width: 375px;
+    height: 712px;
+    margin-left: calc(50% - 187.5px);
+    border-radius: 20px;
+    background-color: rgba(244, 244, 244, 1);
+    display: block;
+    padding: 44px 24px 23px 24px;
+}
+
+label{
+    display: inline-block;
+    width: 100%;
+    height: 72px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgba(119, 119, 119, 1);
+    margin-bottom: 24px;
+}
+
+select{
+    width: 327px;
+    height: 48px;
+    cursor: pointer;
+    border-color: rgba(187, 187, 187, 1);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    appearance: none;
+    padding-left: 15px;
+}
+
+input{
+    width: 327px;
+    height: 48px;
+    cursor: pointer;
+    border-style: solid;
+    border-color: rgba(187, 187, 187, 1);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+    padding-left: 15px;
+}
+
+button{
+    width: 100%;
+    height: 48px;
+    color: white;
+    background-color: rgba(119, 47, 211, 1);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 36px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.6;
+}
+
+.quadrado-menor{
+    width: 327px;
+    height: 276px;
+    border-radius: 20px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(119, 47, 211, 1);
+    padding: 12px 0;
+}
+
+.bandeira-br{
+    height: 87px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.band-br{
+    width: 44px;
+    height: 44px;
+    display: block;
+    margin: 0 auto;
+}
+
+.bandeira-convertida{
+    height: 87px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.band-us{
+    width: 44px;
+    height: 44px;
+    display: block;
+    margin: 0 auto;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(85, 85, 85, 1);
+    text-align: center;
+}
+
+.moeda, .moeda-convertida{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(119, 119, 119, 1);
+}
+
+.seta{
+    display: block;
+    margin: 15px auto;
+}
